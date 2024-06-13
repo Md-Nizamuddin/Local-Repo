@@ -3,7 +3,6 @@ import json
 
 username = 'aws'
 repo_name = 'aws-sdk-java-v2'
-token = ''
 
 state = 'closed'
 labels= 'bug'
