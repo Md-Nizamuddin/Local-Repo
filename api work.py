@@ -28,7 +28,7 @@ response = requests.get(url, headers = headers, params=params)
 if response.status_code == 200:
     issues = response.json()
     
-    with open('issues.json', 'w') as file:
+    with open('C:\\Users\\raise\\Desktop\\Code\\API Test\\issues.json', 'w') as file:
         json.dump(issues, file, indent=4)
     print("Issues saved")
 else:
