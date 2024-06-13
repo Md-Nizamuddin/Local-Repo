@@ -3,7 +3,9 @@ import json
 
 username = 'aws'
 repo_name = 'aws-sdk-java-v2'
-token = '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'
+
+#Enter the Personal Access Token
+#token = ''
 
 state = 'closed'
 labels= 'bug'
