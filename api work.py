@@ -3,10 +3,11 @@ import json
 
 username = 'aws'
 repo_name = 'aws-sdk-java-v2'
-token = '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'
+token = ''
 
 state = 'closed'
 labels= 'bug'
+reason= 'completed'
 
 #url --
 url = f'https://api.github.com/repos/{username}/{repo_name}/issues'
